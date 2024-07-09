@@ -1,7 +1,6 @@
 #!/bin/bash
 
 # Copy zip here
-run gh auth login once
 gh auth login
 filename=$(ls *.zip)
 
